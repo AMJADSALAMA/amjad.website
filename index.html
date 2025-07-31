@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Amjad Salameh | Cybersecurity Researcher | Global Digital Threat" />
+  <title>Amjad Salameh | Cyber Security Specialist</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Courier New', monospace;
+      background: #0a0a0a;
+      color: #f0f0f0;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+    }
+    h1 {
+      color: #e60000;
+      font-size: 3rem;
+      text-shadow: 0 0 10px #e60000;
+    }
+    h2 {
+      color: #ff3333;
+      margin-top: 2rem;
+    }
+    .section {
+      margin-bottom: 2rem;
+    }
+    a {
+      color: #00bfff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .lang-switch {
+      margin-top: 1rem;
+      text-align: right;
+    }
+    .lang-switch button {
+      background: #111;
+      color: #fff;
+      border: 1px solid #444;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+    }
+    .arabic {
+      direction: rtl;
+      text-align: right;
+      display: none;
+    }
+  </style>
+  <script>
+    function toggleLang() {
+      const en = document.getElementById("english");
+      const ar = document.getElementById("arabic");
+      if (en.style.display === "none") {
+        en.style.display = "block";
+        ar.style.display = "none";
+      } else {
+        en.style.display = "none";
+        ar.style.display = "block";
+      }
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <div class="lang-switch">
+      <button onclick="toggleLang()">Switch Language / تبديل اللغة</button>
+    </div>
+
+    <div id="english">
+      <h1>Amjad Salameh</h1>
+      <p><strong>Age:</strong> 17<br>
+         <strong>Country:</strong> Jordan<br>
+         <strong>Instagram:</strong> <a href="https://instagram.com/nirvval1" target="_blank">@nirvval1</a></p>
+
+      <div class="section">
+        <h2>Digital Threat Profile</h2>
+        <p>A rising force in the world of cybersecurity. Known for creating advanced tools, evading surveillance, and exposing system vulnerabilities with unmatched precision. A self-taught expert feared by some, respected by many.</p>
+      </div>
+
+      <div class="section">
+        <h2>Technical Skills</h2>
+        <ul>
+          <li>Custom exploit development</li>
+          <li>Reverse engineering & system analysis</li>
+          <li>Deep network penetration</li>
+          <li>Advanced encryption & stealth frameworks</li>
+          <li>Telegram-based remote control systems</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Quote</h2>
+        <p><em>“I'm not here to keep you safe... I'm here to remind you that safety is an illusion — and I'm the one who breaks it.”</em></p>
+      </div>
+    </div>
+
+    <div id="arabic" class="arabic">
+      <h1>أمجد سلامة</h1>
+      <p><strong>العمر:</strong> 17<br>
+         <strong>البلد:</strong> الأردن<br>
+         <strong>انستقرام:</strong> <a href="https://instagram.com/nirvval1" target="_blank">@nirvval1</a></p>
+
+      <div class="section">
+        <h2>البصمة الرقمية</h2>
+        <p>قوة صاعدة في عالم الأمن السيبراني. معروف بابتكار أدوات متقدمة، وتجاوز أنظمة المراقبة، وكشف الثغرات باحترافية فائقة. خبير عصامي يخشاه البعض ويقدّره الكثير.</p>
+      </div>
+
+      <div class="section">
+        <h2>المهارات التقنية</h2>
+        <ul>
+          <li>تطوير أدوات اختراق مخصصة</li>
+          <li>الهندسة العكسية وتحليل الأنظمة</li>
+          <li>اختراق عميق للشبكات</li>
+          <li>بناء أنظمة تشفير وتخفي معقدة</li>
+          <li>أنظمة تحكم عن بعد عبر تيليجرام</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>اقتباس</h2>
+        <p><em>“لست هنا لتكون بأمان... أنا هنا لأذكّرك أن الأمان مجرد وهم — وأنا من يحطّمه.”</em></p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
